@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="body">
+    <center>
+    <div id="heading_div" class="container">
+        <label id="header">
+            Geometric calculator
+        </label>
+    </div>
+</center>
+    <br><br>
+    <div id="connector">
+    <div id="sqaure" class="container">
+        <label id="lbl_1_disclaimer">Square =></label>
+        <button id="2d_sqaure" onclick="Square2D()">2D</button>
+        <button id="3d_sqaure" onclick="Sqaure3D()">3D</button>
+        <label id="squareLength_">Side=</label>
+        <input id="sqaure_holder" type="number">
+        <button id="square_calc" onclick="sqaureCalc()">Calculate</button>
+    </div>
+    <div id="square_ans">
+        <div>
+        <label id="sq_0"></label>
+        <label id="sq_1"></label>
+        </div>
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,49 @@
+#body{
+    background-color:rgb(245, 245, 82);
+}
+
+#heading_div{
+    border:2px;
+    border-color:black;
+    border-style:ridge;
+    height:15px;
+}
+
+#header{
+    color:red;
+}
+
+#sqaure{
+    border:2px;
+    border-radius:100px;
+    border-color:blue;
+    border-style:ridge;
+}
+
+#lbl_1_disclaimer{
+    margin-left:5px;
+}
+
+button{
+    background-color:purple;
+    cursor:pointer;
+}
+
+#length_{
+    margin-left:5px;
+}
+
+#square_calc{
+    width:70px;
+    background-color:green;
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#sq_0{
+    color:red;
+}
+
+#sq_1{
+    color:blue;
+}
